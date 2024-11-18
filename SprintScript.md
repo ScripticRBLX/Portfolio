@@ -18,7 +18,7 @@ event.OnServerEvent:Connect(function(plr, playerstate)
         plr.Character:WaitForChild("Humanoid").WalkSpeed -= 5
     end
 end)
-
+```
 
 **Path:** `StarterPlayer/StarterPlayerScripts/Keybind` (local script)
 
@@ -40,5 +40,5 @@ uis.InputEnded:Connect(function(input)
         camera.FieldOfView = 70
     end
 end)
-
+```
 **Path:** `ReplicatedStorage/SprintEvent` (Remote Event)
